@@ -22,4 +22,4 @@ if st.button("관상 보기", type="primary"):
         # ... 
     else:
         st.error("얼굴 특징을 입력하고, 관상보기 버튼을 클릭해주세요.")
-
+        

@@ -15,3 +15,14 @@ numbers_1 = generate_numvers_1(10)
 numbers_2 = generate_numbers_2(10)
 print(numbers_1)
 print(numbers_2)
+
+# gen1 = gen2 같은데 다른 방법
+# gen1 = (i**2 for i in [1,2,3,4,5])  # 제너레이터 표현식
+
+# # 함수 방식, class로도 구현 가능
+# def make_numbers():
+#     for i in [1,2,3,4,5]:
+#         yield i
+
+# gen2 = make_numbers()
+
